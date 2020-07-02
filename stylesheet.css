@@ -199,3 +199,14 @@ footer {
   cursor: pointer;
   box-shadow: 0 7px rgba(235, 102, 35, 1);
 }
+
+@media(max-width: 1000px){
+.pros{
+  display: flex;
+  flex-wrap: wrap;
+}
+.pro{
+  flex:auto;
+  width: 50%;
+}
+}

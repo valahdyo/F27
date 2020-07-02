@@ -93,6 +93,48 @@ header {
     background-color: #092499;
 }
 
+.main-wrapper {
+  padding-bottom: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: white;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #5f5d60;
+  border-bottom: tomato solid 1px;
+}
+
+.container-main {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.pro{
+  padding-top: 15px;
+}
+
+.pro-icon p{
+  font-weight: bold;
+}
+
+.description{
+  padding-bottom: 30px;
+}
+
+.icon {
+  width: 124px;
+}
+
 footer {
   background-color: #031e63;
   color: #fff;
@@ -121,4 +163,39 @@ footer {
 .footer-list li a{
   color: white;
   list-style-type: none;
+}
+
+.booking {
+  
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.heading-button{
+  border-top: tomato solid 1px;
+  padding-top: 30px;
+}
+.heading-button h3{
+  
+  font-weight: normal;
+  padding-bottom: 40px; 
+}
+
+.container-button {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.message:active{
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: rgba(235, 102, 35, 0.7);
+  cursor: pointer;
+  box-shadow: 0 7px rgba(235, 102, 35, 1);
 }

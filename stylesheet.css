@@ -1,12 +1,7 @@
-html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "Lucida Grande";
+* {
+	padding : 0;
+	margin : 0;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 li {
@@ -15,4 +10,115 @@ li {
 
 a {
   text-decoration: none;
+}
+
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(235, 102, 35, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: white;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(3, 30, 99, 1);
+  transition: all 0.5s;
+}
+
+.header-right ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 1px 30px;
+  border: 1px solid;
+}
+
+.header-right ul li {
+  display: inline-block;
+}
+
+.header-right li:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.top-wrapper {
+	padding: 150px 0 120px 0;
+	background-image: url(images/mehmet-turgut-kirkgoz-LqQKawpK2Do-unsplash.jpg);
+	background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 2px;
+}
+
+.top-wrapper p {
+    opacity: 1;
+    margin-bottom: 50px;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.btn-wrapper {
+    margin: 20px 0;
+}
+
+.signup {
+    background-color: #092499;
+}
+
+footer {
+  background-color: #031e63;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-logo p{
+  float: left;
+  font-size: 12px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+
+.footer-list li a{
+  color: white;
+  list-style-type: none;
 }

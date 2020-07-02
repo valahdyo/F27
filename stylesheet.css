@@ -108,6 +108,13 @@ header {
   border-bottom: tomato solid 1px;
 }
 
+.container-main {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
 .heading h2 {
   font-weight: normal;
 }
@@ -156,4 +163,39 @@ footer {
 .footer-list li a{
   color: white;
   list-style-type: none;
+}
+
+.booking {
+  
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.heading-button{
+  border-top: tomato solid 1px;
+  padding-top: 30px;
+}
+.heading-button h3{
+  
+  font-weight: normal;
+  padding-bottom: 40px; 
+}
+
+.container-button {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.message:active{
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: rgba(235, 102, 35, 0.7);
+  cursor: pointer;
+  box-shadow: 0 7px rgba(235, 102, 35, 1);
 }
